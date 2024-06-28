@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #5cad9a;
+}
+p {
+  font-size: 20px;
+}
+
+.fa-6x {
+  border: solid 5px #5cad9a;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+select {
+  border: #000 solid 1px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.requested,
+.responsed {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.requested {
+  margin-bottom: 30px;
+}
+
+#swap-btn {
+  color: #fff;
+  background-color: #5cad9a;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+#swap-btn:hover {
+  color: #5cad9a;
+  background-color: #fff;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+}
+
+#exchange-btn {
+  margin-top: 20px;
+  color: #fff;
+  background-color: #5cad9a;
+  padding: 10px 20px;
+  margin-top: 44px;
+  margin-left: 20px;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  border: 0;
+}
+
+#exchange-btn:hover {
+  color: #5cad9a;
+  background-color: #fff;
+}
